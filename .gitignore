@@ -1,3 +1,6 @@
+# Custom rules for this repository
+out/
+
 # Logs
 *.log
 npm-debug.log*

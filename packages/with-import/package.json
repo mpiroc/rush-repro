@@ -1,0 +1,19 @@
+{
+  "name": "with-import",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "bundle": "parcel build index.ts --no-source-maps --target node --bundle-node-modules --no-minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "~12.7.12",
+    "parcel-bundler": "^1.12.4",
+    "typescript": "~3.6.3"
+  }
+}
